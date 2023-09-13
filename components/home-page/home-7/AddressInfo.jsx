@@ -3,12 +3,12 @@ const AddressInfo = () => {
     {
       icon: "/images/icon/icon_37.svg",
       title: "Our Address",
-      address: "1012 Pebda Parkway, Mirpur 2\nDhaka, Bangladesh",
+      address: "UNIT 8 7210 46AVE CAMROSE ALBERTA T4V 5C4",
     },
     {
       icon: "/images/icon/icon_38.svg",
       title: "Contact Info",
-      address: "Open a chat or give us call at\n310.841.5500",
+      address: "Give us call at\n236 808 5063",
     },
   ];
 
