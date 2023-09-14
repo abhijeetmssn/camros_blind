@@ -63,7 +63,7 @@ const Hero1 = () => {
         </div>
         {/* End .container */}
 
-        <Image
+        {/* <Image
           width={487}
           height={649}
           src="/images/assets/ils_11.png"
@@ -80,7 +80,7 @@ const Hero1 = () => {
           className="lazy-img illustration-two"
           data-aos="fade-right"
           layout="intrinsic"
-        />
+        /> */}
       </div>
     </div>
 

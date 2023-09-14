@@ -41,7 +41,7 @@ const MainMenu = () => {
           </li>
           {/* End li */}
 
-          <li className="nav-item dropdown mega-dropdown-md active">
+          {/* <li className="nav-item dropdown mega-dropdown-md active">
             <a
               className="nav-link dropdown-toggle"
               href="#"
@@ -51,8 +51,15 @@ const MainMenu = () => {
               aria-expanded="false"
             >
               Home
-            </a>
-            <ul className="dropdown-menu">
+            </a> */}
+
+            <li className="nav-item">
+              <Link className="nav-link" href="/" role="button">
+                Home
+              </Link>
+            </li>
+
+            {/* <ul className="dropdown-menu">
               <li>
                 <div className="row">
                   {menuItems.map((menu, index) => (
@@ -73,11 +80,11 @@ const MainMenu = () => {
                   ))}
                 </div>
               </li>
-            </ul>
-          </li>
+            </ul> */}
+          {/* </li> */}
           {/* End li (home mega menu) */}
 
-          <li className="nav-item  dropdown">
+          {/* <li className="nav-item  dropdown">
             <a
               className="nav-link dropdown-toggle"
               href="#"
@@ -123,7 +130,7 @@ const MainMenu = () => {
                 </Link>
               </li>
             </ul>
-          </li>
+          </li> */}
           {/* End li (pages) */}
 
           <li className="nav-item dropdown">
@@ -175,6 +182,12 @@ const MainMenu = () => {
           <li className="nav-item">
             <Link className="nav-link" href="/contact" role="button">
               Contact
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link className="nav-link" href="pages-menu/about-us-v1" role="button">
+              About us
             </Link>
           </li>
           {/* End li (contact) */}
