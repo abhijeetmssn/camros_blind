@@ -4,6 +4,10 @@ const ContactForm = () => {
     // Handle form submission
   };
 
+  function sendMessage(){
+    console.log("hello World")
+  }
+
   return (
     <div className="form-style-one" data-aos="fade-up">
       <form onSubmit={handleSubmit}>
@@ -52,7 +56,7 @@ const ContactForm = () => {
           {/* End .col-12 */}
 
           <div className="col-12">
-            <button className="btn-twentyOne fw-500 tran3s d-block">
+            <button className="btn-twentyOne fw-500 tran3s d-block" onClick={() => sendMessage()}>
               Send Message
             </button>
           </div>

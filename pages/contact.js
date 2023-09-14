@@ -69,7 +69,7 @@ const contact = () => {
           </div>
         </div>
         {/* End .container */}
-        <Map />
+        {/* <Map /> */}
       </div>
 
       {/* 
