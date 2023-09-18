@@ -1,11 +1,11 @@
 module.exports = [
   {
     id: 1,
-    title: "Very Solid!!",
+    title: "Very Beautifull!!",
     rating: 5,
     text: "They not only understand what I say but read between the lines and also give me ideas of my own.",
-    author: "Rashed Kabir",
-    location: "Claifornia",
+    author: "Kunal Garg",
+    location: "Alberta",
     image: "/images/media/img_54.jpg",
   },
   {

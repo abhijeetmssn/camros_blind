@@ -47,7 +47,7 @@ const BlockContact = () => {
                     block.link.includes("tel:") ? "call" : "webaddress"
                   }
                 >
-                  {block.link.replace("tel:", "")}
+                  {block.link.includes("wa.me") ? "Click Here" : block.link.replace("tel:", "")}
                 </a>
               )}
             </p>

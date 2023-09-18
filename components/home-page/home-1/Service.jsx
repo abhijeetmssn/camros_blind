@@ -3,23 +3,27 @@ import Link from "next/link";
 const services = [
   {
     icon: "images/icon/icon_104.svg",
-    title: "Home Loan",
+    title: "Blinds",
     delayAnim: 0,
+    backgroundImage: "url('/images/assets/bg-01.png')",
   },
   {
     icon: "images/icon/icon_105.svg",
-    title: "Travel Insurance",
+    title: "Shutters",
     delayAnim: 100,
+    backgroundImage: "url('/images/assets/bg-01.png')",
   },
   {
     icon: "images/icon/icon_106.svg",
-    title: "Insure the Car",
+    title: "Covers",
     delayAnim: 200,
+    backgroundImage: "url('/images/assets/bg-01.png')",
   },
   {
     icon: "images/icon/icon_107.svg",
-    title: "Health Insurance",
+    title: "Tables",
     delayAnim: 300,
+    backgroundImage: "url('/images/assets/bg-01.png')",
   },
 ];
 
@@ -32,11 +36,12 @@ const Service = () => {
           key={index}
           data-aos="fade-up"
           data-aos-delay={service.delayAnim}
+          // style={{ backgroundImage: service.backgroundImage }}
         >
           <div className="card-style-sixteen tran3s text-center position-relative mt-30">
-            <div className="icon">
+            {/* <div className="icon">
               <img src={service.icon} alt="" className="lazy-img m-auto" />
-            </div>
+            </div> */}
             <p className="fs-20 m0 pt-20">I want</p>
             <h4 className="tx-dark">{service.title}</h4>
             <Link

@@ -3,22 +3,19 @@ const accordionItems = [
     id: 1,
     icon: "/images/icon/icon_108.svg",
     title: "Lowest Price.",
-    content:
-      "Practice what you learned on realistic lorem quis test questions testing.",
+    content: "Discover unbeatable prices on blinds without compromising on quality or style.",
   },
   {
     id: 2,
     icon: "/images/icon/icon_109.svg",
-    title: "Fast Process & Loan",
-    content:
-      "Practice what you learned on realistic lorem quis test questions testing.",
+    title: "Fast Processing",
+    content: "Experience swift and efficient processing, ensuring your blinds are delivered and installed in no time.",
   },
   {
     id: 3,
     icon: "/images/icon/icon_110.svg",
     title: "Guaranteed Return & Claim",
-    content:
-      "Practice what you learned on realistic lorem quis test questions testing.",
+    content: "Rest easy with our guaranteed return and claim process, putting your satisfaction and peace of mind first.",
   },
 ];
 

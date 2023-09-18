@@ -11,8 +11,8 @@ const Block = () => {
         </div>
         <div className="col-md-7 col-sm-8 wow fadeInDown">
           <div className="block-wrapper block-one">
-            <h3 style={{ color: "#FFAE10" }}>10million+</h3>
-            <p>Customers trust us &amp; have bought insurance.</p>
+            <h3 style={{ color: "#FFAE10" }}>10K+</h3>
+            <p>Customers trust us &amp; have bought Blinds.</p>
           </div>
           {/* /.block-wrapper */}
         </div>
@@ -23,12 +23,11 @@ const Block = () => {
         <div className="col-sm-7 wow fadeInDown">
           <div className="block-wrapper block-two position-relative mt-50 sm-mt-30">
             <h3 style={{ color: "#9650EF" }}>
-              50+ <br />
-              <span>Insurance</span>
+              500+ <br />
+              <span>Blinds</span>
             </h3>
             <p>
-              Partnered with us so that you can compare easily &amp;
-              transparently
+              Transform your space with our elegant blinds, offering both style and functionality for your comfort.
             </p>
             <img
               src="/images/shape/shape_138.svg"
@@ -43,7 +42,7 @@ const Block = () => {
         <div className="col-sm-5 wow fadeInUp">
           <div className="block-wrapper block-three mt-50 sm-mt-30">
             <h3 style={{ color: "#00BDE6" }}>
-              <span>Claims</span>
+              <span>Great Support</span>
             </h3>
             <p>Get Support by expert easily.</p>
           </div>

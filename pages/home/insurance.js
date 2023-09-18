@@ -35,34 +35,14 @@ const Insurance = () => {
 				Feature Section Thirty Four
 			============================================== 
 			--> */}
-      <div className="fancy-feature-thirtyFour mt-50">
-        <div className="container">
-          <div className="row gx-xxl-5">
-            <Feature />
-          </div>
-        </div>
-        {/* <!-- /.container --> */}
-      </div>
+      
       {/* <!-- /.fancy-feature-thirtyFour --> */}
       {/*
 			=====================================================
 				Feature Section Thirty Five
 			=====================================================
 			*/}
-      <div className="fancy-feature-thirtyFive mt-90 md-mt-70">
-        <div className="container" data-aos="fade-up">
-          <Banner />
-          {/* /.top-banner */}
-        </div>
-        {/* End .container */}
-
-        <div className="bg-wrapper mt-150 pt-100 lg-mt-80 lg-pt-70">
-          <div className="container">
-            <IntroAbout />
-          </div>
-        </div>
-        {/* /.bg-wrapper */}
-      </div>
+      
       {/* /.fancy-feature-thirtyFive */}
       {/* 
 			=============================================
@@ -163,12 +143,7 @@ const Insurance = () => {
 				Feature Section Thirty Eight
 			============================================== 
 			*/}
-      <div className="fancy-feature-thirtyEight mt-140 lg-mt-100">
-        <div className="container">
-          <AppBanner />
-        </div>
-        {/* /.container */}
-      </div>
+      
       {/* /.fancy-feature-thirtyEight */}
       {/*=====================================================
 				Fancy Short Banner Thirteen

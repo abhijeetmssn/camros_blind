@@ -1,12 +1,22 @@
+import emailjs from '@emailjs/browser';
+
 const ContactForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Handle form submission
-  };
+    const form = event.target;
+    const formData = new FormData(form);
 
-  function sendMessage(){
-    console.log("hello World")
-  }
+    // Extract values from form data
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const message = formData.get('message');
+
+    // Now you have the form data in the variables 'name', 'email', and 'message'
+    console.log('Name:', name);
+    console.log('Email:', email);
+    console.log('Message:', message);
+
+  };
 
   return (
     <div className="form-style-one" data-aos="fade-up">
@@ -56,7 +66,7 @@ const ContactForm = () => {
           {/* End .col-12 */}
 
           <div className="col-12">
-            <button className="btn-twentyOne fw-500 tran3s d-block" onClick={() => sendMessage()}>
+            <button className="btn-twentyOne fw-500 tran3s d-block">
               Send Message
             </button>
           </div>
