@@ -1,6 +1,10 @@
 import { useState } from "react";
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
 
 const ContactForm = () => {
+
+  const formRef = useRef(null);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -15,14 +19,22 @@ const ContactForm = () => {
     }));
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event,e) => {
     event.preventDefault();
     console.log(formData);
+
+    emailjs.sendForm('service_rg1tfjd', 'template_a0nyxel', formRef.current, 'JboINDisZL-aWNV7U')
+            .then((result) => {
+                
+            }, (error) => {
+                  
+            });
+        //e.target.reset();
     // You can add your form submission logic here
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} ref={formRef}>
       <div className="messages" />
       <div className="row controls">
         <div className="col-12">
@@ -81,12 +93,12 @@ const ContactForm = () => {
       </div>
       {/* End .row */}
 
-      <div className="fs-16 text-center mt-25">
+      {/* <div className="fs-16 text-center mt-25">
         <span className="opacity-75">Been here before?</span>{" "}
         <a href="#" className="tx-dark fw-500">
           Check your query
         </a>
-      </div>
+      </div> */}
     </form>
   );
 };

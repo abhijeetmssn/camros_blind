@@ -35,21 +35,21 @@ const Insurance = () => {
 				Feature Section Thirty Four
 			============================================== 
 			--> */}
-      
+
       {/* <!-- /.fancy-feature-thirtyFour --> */}
       {/*
 			=====================================================
 				Feature Section Thirty Five
 			=====================================================
 			*/}
-      
+
       {/* /.fancy-feature-thirtyFive */}
       {/* 
 			=============================================
 				Feature Section Thirty Six
 			============================================== 
 			*/}
-      <div className="fancy-feature-thirtySix mt-190 lg-mt-140">
+      {/* <div className="fancy-feature-thirtySix mt-190 lg-mt-140">
         <div className="container">
           <div className="wrapper position-relative">
             <div className="row">
@@ -67,8 +67,6 @@ const Insurance = () => {
             <div className="row">
               <Service />
             </div>
-            {/* /.row */}
-
             <div className="text-center md-mt-50">
               <Link
                 href="/pages-menu/service-v1"
@@ -80,8 +78,7 @@ const Insurance = () => {
             </div>
           </div>
         </div>
-        {/* /.container */}
-      </div>
+      </div> */}
       {/* /.fancy-feature-thirtySix */}
       {/* 
 			=============================================
@@ -120,7 +117,7 @@ const Insurance = () => {
 				Feedback Section Eleven
 			=====================================================
 			*/}
-      <div
+      {/* <div
         className="feedback-section-eleven position-relative mt-200 pt-100 pb-70 lg-mt-120 lg-pt-70 lg-pb-50"
         data-aos="fade-up"
       >
@@ -134,16 +131,16 @@ const Insurance = () => {
             <Testimonial />
           </div>
 
-          {/* /.slider-wrapper */}
+          
         </div>
-        {/* /.inner-content */}
-      </div>
+        
+      </div> */}
       {/* /.feedback-section-eleven */}
       {/* =============================================
 				Feature Section Thirty Eight
 			============================================== 
 			*/}
-      
+
       {/* /.fancy-feature-thirtyEight */}
       {/*=====================================================
 				Fancy Short Banner Thirteen
@@ -167,12 +164,11 @@ const Insurance = () => {
                       />
                       <div className="title-style-one">
                         <h2 className="main-title fw-500 tx-dark m0">
-                          Let’s talk with expereince advisors.
+                          Let’s talk with expereince Salesman.
                         </h2>
                       </div>
                       <p className="fs-20 tx-dark pt-20 m0">
-                        eiusmod tempor incididunt. Ut enim mim veniam, quis
-                        nostrud elit lorem dolor.
+                      Discover the best blinds for your windows, tailored to your style and needs.
                       </p>
                     </div>
                   </div>
@@ -209,7 +205,7 @@ const Insurance = () => {
       {/* =============================================
 		   Blog Section Three
 		   ============================================== */}
-      <div className="blog-section-three mt-140 mb-170 lg-mt-100 lg-mb-100">
+      {/* <div className="blog-section-three mt-140 mb-170 lg-mt-100 lg-mb-100">
         <div className="container">
           <div className="position-relative">
             <div className="row align-items-end">
@@ -220,14 +216,14 @@ const Insurance = () => {
                 >
                   <h2 className="main-title fw-500 tx-dark m0">Our Blog</h2>
                 </div>
-                {/* /.title-style-one */}
+                
               </div>
             </div>
-            {/* /.row */}
+            
             <div className="row gx-xxl-5">
               <Blog />
             </div>
-            {/* /.row */}
+            
             <div className="text-center xs-mt-40">
               <Link
                 href="/blog/blog-v2"
@@ -239,7 +235,7 @@ const Insurance = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* /.blog-section-three */}
       {/*
 			=====================================================
