@@ -133,7 +133,13 @@ const MainMenu = () => {
           </li> */}
           {/* End li (pages) */}
 
-          <li className="nav-item dropdown">
+          <li className="nav-item">
+              <Link className="nav-link" href="/portfolio/portfolio-v2" role="button">
+              Portfolio
+              </Link>
+            </li>
+
+          {/* <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
               href="#"
@@ -153,10 +159,10 @@ const MainMenu = () => {
                 </li>
               ))}
             </ul>
-          </li>
+          </li> */}
           {/* End li (portfolio) */}
 
-          <li className="nav-item dropdown">
+          {/* <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
               href="#"
@@ -176,7 +182,7 @@ const MainMenu = () => {
                 </li>
               ))}
             </ul>
-          </li>
+          </li> */}
           {/* End li (blog) */}
 
           <li className="nav-item">

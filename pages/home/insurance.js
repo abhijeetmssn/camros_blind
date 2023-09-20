@@ -13,10 +13,37 @@ import IntroAbout from "../../components/home-page/home-1/IntroAbout";
 import Service from "../../components/home-page/home-1/Service";
 import Testimonial from "../../components/home-page/home-1/Testimonial";
 import WhyChoose from "../../components/home-page/home-1/WhyChoose";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Insurance = () => {
+
+  const handleShowToast = (message, error) => {
+    if (error) {
+      toast.error(message, {
+        closeButton: false
+      });
+    } else {
+      toast.success(message, {
+        closeButton: false
+      });
+    }
+  };
+
+
   return (
     <>
+      <ToastContainer
+        position="top-right"
+        autoClose={3000} // Adjust this as needed
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
       <Seo pageTitle="Insurance" />
       {/* <!-- 
       =============================================
@@ -168,13 +195,13 @@ const Insurance = () => {
                         </h2>
                       </div>
                       <p className="fs-20 tx-dark pt-20 m0">
-                      Discover the best blinds for your windows, tailored to your style and needs.
+                        Discover the best blinds for your windows, tailored to your style and needs.
                       </p>
                     </div>
                   </div>
                   <div className="col-xl-5 col-lg-6 order-lg-first">
                     <div className="form-style-two md-mb-40">
-                      <ContactForm />
+                      <ContactForm handleShowToast={handleShowToast} />
                     </div>
                     {/* /.form-style-two */}
                   </div>

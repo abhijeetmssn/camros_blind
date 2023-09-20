@@ -1,8 +1,10 @@
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const ContactForm = () => {
+const ContactForm = ({ handleShowToast }) => {
 
   const formRef = useRef(null);
   const [formData, setFormData] = useState({
@@ -19,22 +21,34 @@ const ContactForm = () => {
     }));
   };
 
-  const handleSubmit = (event,e) => {
+  const notify = () => {
+    handleShowToast("Message Sent!",false);
+  }
+
+  const handleSubmit = (event, e) => {
     event.preventDefault();
     console.log(formData);
 
     emailjs.sendForm('service_rg1tfjd', 'template_a0nyxel', formRef.current, 'JboINDisZL-aWNV7U')
-            .then((result) => {
-                
-            }, (error) => {
-                  
-            });
-        //e.target.reset();
+      .then((result) => {
+        handleShowToast("Message Sent!",false);
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+        });
+      }, (error) => {
+        handleShowToast("Problem Occured!",true);
+      });
+    //e.target.reset();
     // You can add your form submission logic here
   };
 
   return (
     <form onSubmit={handleSubmit} ref={formRef}>
+      <div>
+        <button onClick={notify}>Notify!</button>
+      </div>
       <div className="messages" />
       <div className="row controls">
         <div className="col-12">
