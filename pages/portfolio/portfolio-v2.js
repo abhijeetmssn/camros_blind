@@ -9,7 +9,7 @@ import CallToAction from "../../components/portfolio/CallToAction";
 const PortfolioV2 = () => {
   return (
     <>
-      <Seo pageTitle="Portfolio V2" />
+      <Seo pageTitle="Camrose Blinds || Portfolio" />
       {/* <!-- 
       =============================================
       Theme Default Menu

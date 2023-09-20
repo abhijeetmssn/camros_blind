@@ -47,7 +47,7 @@ const Footer = () => {
 
   return (
     <>
-      {links.map((link) => (
+      {/* {links.map((link) => (
         <div className={link.column} key={link.id}>
           <h5 className="footer-title text-white fw-500">{link.title}</h5>
           <ul className="footer-nav-link style-none">
@@ -58,13 +58,12 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-      ))}
+      ))} */}
 
       <div className="col-xl-3 col-lg-4 col-md-5 mb-30">
         <h5 className="footer-title text-white fw-500">Address</h5>
         <p className="text-white opacity-75 mb-35">
-          2190 Zinai terrace, Lake view <br />
-          house state, 10 no road.
+        1 UNIT 8 7210 46AVE CAMROSE ALBERTA T4V 5C4.
         </p>
         <ul className="d-flex social-icon style-none">
           {socialIcons.map((icon, index) => (
