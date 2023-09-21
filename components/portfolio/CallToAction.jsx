@@ -10,8 +10,7 @@ const CallToAction = () => {
             <div className="col-xxl-9 col-xl-10 m-auto text-center">
               <div
                 className="title-style-ten wow fadeInUp"
-                data-aos="fade-up"
-                data-aos-delay="100"
+
               >
                 <h2 className="main-title fw-500 tx-dark">
                   Have Any Query? <br />
@@ -25,16 +24,13 @@ const CallToAction = () => {
               {/* /.title-style-ten */}
               <p
                 className="text-lg mt-45 mb-55 lg-mb-30 lg-mt-40"
-                data-aos="fade-up"
-                data-aos-delay="200"
+
               >
                 We’r ready to help you. Our expert is here, just send a message.
               </p>
               <Link
                 href="/contact"
                 className="btn-twenty fw-500 tran3s"
-                data-aos="fade-up"
-                data-aos-delay="300"
               >
                 Send Message
               </Link>

@@ -8,10 +8,10 @@ import Image from "next/image";
 const PortfolioGallery2 = () => {
   const [filter, setFilter] = useState("*");
 
-  const filteredItems =
-    filter === "*"
-      ? items.slice(8, 17)
-      : items.slice(8, 17).filter((item) => item.category.includes(filter));
+  const filteredItems = filter === "*"
+  ? items
+  : items.filter((item) => item?.category?.includes(filter));
+
 
   return (
     <div className="portfolio-gallery-three pt-30">
@@ -24,29 +24,29 @@ const PortfolioGallery2 = () => {
             All
           </li>
           <li
-            className={filter === "marketing" ? "is-checked" : ""}
-            onClick={() => setFilter("marketing")}
+            className={filter === "blinds" ? "is-checked" : ""}
+            onClick={() => setFilter("blinds")}
           >
-            Marketing
+            Blinds
           </li>
           <li
-            className={filter === "application" ? "is-checked" : ""}
-            onClick={() => setFilter("application")}
+            className={filter === "shutter" ? "is-checked" : ""}
+            onClick={() => setFilter("shutter")}
           >
-            Application
+            Shutter
           </li>
           <li
-            className={filter === "design" ? "is-checked" : ""}
-            onClick={() => setFilter("design")}
+            className={filter === "curtains" ? "is-checked" : ""}
+            onClick={() => setFilter("curtains")}
           >
-            Design
+            Curtains
           </li>
-          <li
+          {/* <li
             className={filter === "dev" ? "is-checked" : ""}
             onClick={() => setFilter("dev")}
           >
             Development
-          </li>
+          </li> */}
         </ul>
         <div className="row pt-90 lg-pt-50">
           <Gallery>
