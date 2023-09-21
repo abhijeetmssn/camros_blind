@@ -24,10 +24,10 @@ const Hero1 = () => {
               className="col-lg-9 col-md-10 m-auto text-center"
               data-aos="fade-up"
             >
-              <h1 className="hero-heading fw-500 tx-dark">
+              <h1 className="hero-heading fw-500 tx-white">
                 Everything for your <span>Home</span> &amp; Future.
               </h1>
-              <p className="text-lg tx-dark mt-45 mb-50 lg-mt-30 lg-mb-40">
+              <p className="text-lg tx-white mt-45 mb-50 lg-mt-30 lg-mb-40">
                 Instant everything. Incredible prices. Big heart.
               </p>
               {/* <form
@@ -54,8 +54,7 @@ const Hero1 = () => {
 
               <div>
                 <div className="approval-info d-inline-flex align-items-center mt-130 lg-mt-80">
-                  <img src="/images/icon/icon_99.svg" alt="" className="me-1" />
-                  <span>An UK insurer approved by the UICO.</span>
+                  <span>Best Blinds Company</span>
                 </div>
               </div>
             </div>
