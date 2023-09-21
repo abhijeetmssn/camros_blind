@@ -27,7 +27,7 @@ const AboutUsV1 = () => {
 
   return (
     <>
-      <Seo pageTitle="About Us V1" />
+      <Seo pageTitle="Camrose Blinds || About Us" />
 
       {/* <!-- 
       =============================================

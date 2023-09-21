@@ -6,13 +6,12 @@ export default function Document() {
       <Head>
         <meta
           name="description"
-          content="Jano - Creative Multipurpose React NextJS Template"
+          content="CamroseBlinds - Your Source for Great Quality Blinds"
         />
         <meta
           name="keywords"
-          content="agency, bootstrap 5, business, business multipurpose, charity, creative, creative template, crypto, education, hosting, insurance, landing page, portfolio, real estate, responsive, react, nextjs"
+          content="Camrose Blinds, blinds, window blinds, quality blinds, window treatments, custom blinds, home decor"
         />
-
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>

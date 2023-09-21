@@ -8,7 +8,7 @@ import DefaulHeader from "../components/header/DefaulHeader";
 const contact = () => {
   return (
     <>
-      <Seo pageTitle="Contact" />
+      <Seo pageTitle="Camrose Blinds || Contact" />
       {/* <!-- 
       =============================================
       Theme Default Menu
