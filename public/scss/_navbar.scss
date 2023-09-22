@@ -203,7 +203,7 @@
 .navbar [class*="mega-dropdown"] .dropdown-item {line-height: 40px; padding: 0;}
 /*----- For Desktop -------*/
 @media screen and (min-width: 992px) {
-  .theme-main-menu .navbar {position: absolute;left: 50%;transform: translateX(-50%);}
+  .theme-main-menu .navbar {position: absolute;left: 50%;transform: translateX(-50%); width: 64%;}
   .theme-main-menu.theme-menu-nine .navbar,
   .theme-main-menu.theme-menu-five .navbar,
   .theme-main-menu.theme-menu-ten .navbar,
