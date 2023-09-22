@@ -2,7 +2,7 @@ import Seo from "../../components/common/Seo";
 import DefaulHeader from "../../components/header/DefaulHeader";
 import DefaultFooter from "../../components/footer/DefaultFooter";
 import PortfolioTopTitle from "../../components/portfolio/PortfolioTopTitle";
-import PortfolioGallery2 from "../../components/portfolio/PortfolioGallery2";
+import ShadesGallery from "../../components/portfolio/ShadesGallery";
 import Link from "next/link";
 import CallToAction from "../../components/portfolio/CallToAction";
 
@@ -30,7 +30,7 @@ const PortfolioV2 = () => {
         Portfolio Gallery Three
         ============================================== 
         --> */}
-      <PortfolioGallery2  />
+      <ShadesGallery  />
 
       {/*
 			=====================================================
