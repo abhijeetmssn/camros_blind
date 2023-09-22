@@ -2,7 +2,7 @@ module.exports = [
   {
     id: 1,
     category: "shades",
-    name: "shades",
+    name: "Bamboo Shades",
     tag: "Design",
     image: "/images/gallery/shades/1.jpg",
     projectInfo: {
@@ -14,7 +14,7 @@ module.exports = [
   {
     id: 2,
     category: "shades",
-    name: "shades",
+    name: "Cellular Shades",
     tag: "Appliction",
     image: "/images/gallery/shades/2.jpg",
     projectInfo: {
@@ -26,7 +26,7 @@ module.exports = [
   {
     id: 3,
     category: "shades",
-    name: "shades",
+    name: "Graphic Shades",
     tag: "Design",
     image: "/images/gallery/shades/3.jpg",
     projectInfo: {
@@ -38,7 +38,7 @@ module.exports = [
   {
     id: 5,
     category: "shades",
-    name: "shades",
+    name: "Pleated Shades",
     tag: "Design",
     image: "/images/gallery/shades/4.jpg",
     projectInfo: {
@@ -50,7 +50,7 @@ module.exports = [
   {
     id: 6,
     category: "shades",
-    name: "shades",
+    name: "Roller Shades",
     tag: "Appliction",
     image: "/images/gallery/shades/5.jpg",
     projectInfo: {
@@ -62,7 +62,7 @@ module.exports = [
   {
     id: 7,
     category: "shades",
-    name: "shades",
+    name: "Roman Shades",
     tag: "Design",
     image: "/images/gallery/shades/6.jpg",
     projectInfo: {
@@ -74,7 +74,7 @@ module.exports = [
   {
     id: 9,
     category: "shades",
-    name: "Shutter",
+    name: "Sheer Shades",
     tag: "Design",
     image: "/images/gallery/shades/7.jpg",
     projectInfo: {
@@ -86,7 +86,7 @@ module.exports = [
   {
     id: 10,
     category: "shades",
-    name: "shades",
+    name: "Woven Wood Shades",
     tag: "Appliction",
     image: "/images/gallery/shades/9.jpg",
     projectInfo: {

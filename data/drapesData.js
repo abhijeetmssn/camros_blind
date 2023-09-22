@@ -2,7 +2,7 @@ module.exports = [
   {
     id: 1,
     category: "drapes",
-    name: "drapes",
+    name: "Drapery Hardware",
     tag: "Design",
     image: "/images/gallery/drapes/1.jpg",
     projectInfo: {
@@ -14,7 +14,7 @@ module.exports = [
   {
     id: 2,
     category: "drapes",
-    name: "drapes",
+    name: "Drapery Hardware",
     tag: "Appliction",
     image: "/images/gallery/drapes/2.jpg",
     projectInfo: {
@@ -26,7 +26,7 @@ module.exports = [
   {
     id: 3,
     category: "drapes",
-    name: "Curtains",
+    name: "Motorized Drapes",
     tag: "Design",
     image: "/images/gallery/drapes/3.jpg",
     projectInfo: {
@@ -38,7 +38,7 @@ module.exports = [
   {
     id: 5,
     category: "drapes",
-    name: "drapes",
+    name: "Panels",
     tag: "Design",
     image: "/images/gallery/drapes/4.jpg",
     projectInfo: {
@@ -50,7 +50,7 @@ module.exports = [
   {
     id: 6,
     category: "drapes",
-    name: "drapes",
+    name: "Valances",
     tag: "Appliction",
     image: "/images/gallery/drapes/5.jpg",
     projectInfo: {

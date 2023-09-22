@@ -16,7 +16,7 @@ const PortfolioGallery2 = () => {
   return (
     <div className="portfolio-gallery-three pt-30">
       <div className="container">
-        <ul className="style-none text-center isotop-menu-wrapper g-control-nav-two">
+        {/* <ul className="style-none text-center isotop-menu-wrapper g-control-nav-two">
           <li
             className={filter === "*" ? "is-checked" : ""}
             onClick={() => setFilter("*")}
@@ -41,13 +41,8 @@ const PortfolioGallery2 = () => {
           >
             Curtains
           </li>
-          {/* <li
-            className={filter === "dev" ? "is-checked" : ""}
-            onClick={() => setFilter("dev")}
-          >
-            Development
-          </li> */}
-        </ul>
+          
+        </ul> */}
         <div className="row pt-90 lg-pt-50">
           <Gallery>
             {filteredItems.map((item) => (

@@ -2,7 +2,7 @@ module.exports = [
   {
     id: 1,
     category: "blinds",
-    name: "Shutter",
+    name: "Vertical Blind",
     tag: "Design",
     image: "/images/gallery/blinds/1.jpg",
     projectInfo: {
@@ -14,7 +14,7 @@ module.exports = [
   {
     id: 2,
     category: "blinds",
-    name: "Blinds",
+    name: "Aluminium Venetian Blind",
     tag: "Appliction",
     image: "/images/gallery/blinds/2.jpg",
     projectInfo: {
@@ -26,7 +26,7 @@ module.exports = [
   {
     id: 3,
     category: "blinds",
-    name: "Curtains",
+    name: "Composite Blind",
     tag: "Design",
     image: "/images/gallery/blinds/3.jpg",
     projectInfo: {
@@ -38,7 +38,7 @@ module.exports = [
   {
     id: 5,
     category: "blinds",
-    name: "Shutter",
+    name: "Faux Wood Blind",
     tag: "Design",
     image: "/images/gallery/blinds/4.jpg",
     projectInfo: {
@@ -50,7 +50,7 @@ module.exports = [
   {
     id: 6,
     category: "blinds",
-    name: "Blinds",
+    name: "Motorized Blind",
     tag: "Appliction",
     image: "/images/gallery/blinds/5.jpg",
     projectInfo: {
@@ -62,7 +62,7 @@ module.exports = [
   {
     id: 7,
     category: "blinds",
-    name: "Curtains",
+    name: "Vertical Blind",
     tag: "Design",
     image: "/images/gallery/blinds/6.jpg",
     projectInfo: {
@@ -74,7 +74,7 @@ module.exports = [
   {
     id: 9,
     category: "blinds",
-    name: "Shutter",
+    name: "Vinyl Blind",
     tag: "Design",
     image: "/images/gallery/blinds/7.jpg",
     projectInfo: {
@@ -86,7 +86,7 @@ module.exports = [
   {
     id: 10,
     category: "blinds",
-    name: "Blinds",
+    name: "Wooden-Blind",
     tag: "Appliction",
     image: "/images/gallery/blinds/8.jpg",
     projectInfo: {

@@ -2,7 +2,7 @@ module.exports = [
   {
     id: 1,
     category: "shutter",
-    name: "Shutter",
+    name: "Caf Shutter",
     tag: "Design",
     image: "/images/gallery/shutters/1.jpg",
     projectInfo: {
@@ -14,7 +14,7 @@ module.exports = [
   {
     id: 2,
     category: "shutter",
-    name: "Shutter",
+    name: "Composite Shutter",
     tag: "Appliction",
     image: "/images/gallery/shutters/2.jpg",
     projectInfo: {
@@ -26,7 +26,7 @@ module.exports = [
   {
     id: 3,
     category: "shutter",
-    name: "Shutter",
+    name: "Exterior Shutter",
     tag: "Design",
     image: "/images/gallery/shutters/3.jpg",
     projectInfo: {
@@ -38,7 +38,7 @@ module.exports = [
   {
     id: 5,
     category: "shutter",
-    name: "Shutter",
+    name: "Interior Shutters",
     tag: "Design",
     image: "/images/gallery/shutters/4.jpg",
     projectInfo: {
@@ -50,7 +50,7 @@ module.exports = [
   {
     id: 6,
     category: "shutter",
-    name: "Shutter",
+    name: "Plantation Shutter",
     tag: "Appliction",
     image: "/images/gallery/shutters/5.jpg",
     projectInfo: {
@@ -62,7 +62,7 @@ module.exports = [
   {
     id: 7,
     category: "shutter",
-    name: "Shutter",
+    name: "Wood Shutter",
     tag: "Design",
     image: "/images/gallery/shutters/6.jpg",
     projectInfo: {
