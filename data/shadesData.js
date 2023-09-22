@@ -1,10 +1,10 @@
 module.exports = [
   {
     id: 1,
-    category: "blinds",
-    name: "Shutter",
+    category: "shades",
+    name: "shades",
     tag: "Design",
-    image: "/images/gallery/img_10.jpg",
+    image: "/images/gallery/shades/1.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -13,10 +13,10 @@ module.exports = [
   },
   {
     id: 2,
-    category: "blinds",
-    name: "Blinds",
+    category: "shades",
+    name: "shades",
     tag: "Appliction",
-    image: "/images/gallery/img_11.jpg",
+    image: "/images/gallery/shades/2.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -25,10 +25,10 @@ module.exports = [
   },
   {
     id: 3,
-    category: "blinds",
-    name: "Curtains",
+    category: "shades",
+    name: "shades",
     tag: "Design",
-    image: "/images/gallery/img_12.jpg",
+    image: "/images/gallery/shades/3.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -37,10 +37,10 @@ module.exports = [
   },
   {
     id: 5,
-    category: "blinds",
-    name: "Shutter",
+    category: "shades",
+    name: "shades",
     tag: "Design",
-    image: "/images/gallery/img_14.jpg",
+    image: "/images/gallery/shades/4.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -49,10 +49,10 @@ module.exports = [
   },
   {
     id: 6,
-    category: "blinds",
-    name: "Blinds",
+    category: "shades",
+    name: "shades",
     tag: "Appliction",
-    image: "/images/gallery/img_15.jpg",
+    image: "/images/gallery/shades/5.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -61,10 +61,10 @@ module.exports = [
   },
   {
     id: 7,
-    category: "blinds",
-    name: "Curtains",
+    category: "shades",
+    name: "shades",
     tag: "Design",
-    image: "/images/gallery/img_16.jpg",
+    image: "/images/gallery/shades/6.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -73,10 +73,10 @@ module.exports = [
   },
   {
     id: 9,
-    category: "blinds",
+    category: "shades",
     name: "Shutter",
     tag: "Design",
-    image: "/images/gallery/img_18.jpg",
+    image: "/images/gallery/shades/7.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -85,10 +85,10 @@ module.exports = [
   },
   {
     id: 10,
-    category: "blinds",
-    name: "Blinds",
+    category: "shades",
+    name: "shades",
     tag: "Appliction",
-    image: "/images/gallery/img_19.jpg",
+    image: "/images/gallery/shades/9.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",

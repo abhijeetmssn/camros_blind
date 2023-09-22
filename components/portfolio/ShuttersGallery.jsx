@@ -1,5 +1,5 @@
 import { useState } from "react";
-import items from "../../data/blindsData";
+import items from "../../data/shuttersData";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import "photoswipe/dist/photoswipe.css";
 import Link from "next/link";

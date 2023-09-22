@@ -4,7 +4,7 @@ module.exports = [
     category: "blinds",
     name: "Shutter",
     tag: "Design",
-    image: "/images/gallery/img_10.jpg",
+    image: "/images/gallery/blinds/1.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -16,7 +16,7 @@ module.exports = [
     category: "blinds",
     name: "Blinds",
     tag: "Appliction",
-    image: "/images/gallery/img_11.jpg",
+    image: "/images/gallery/blinds/2.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -28,7 +28,7 @@ module.exports = [
     category: "blinds",
     name: "Curtains",
     tag: "Design",
-    image: "/images/gallery/img_12.jpg",
+    image: "/images/gallery/blinds/3.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -40,7 +40,7 @@ module.exports = [
     category: "blinds",
     name: "Shutter",
     tag: "Design",
-    image: "/images/gallery/img_14.jpg",
+    image: "/images/gallery/blinds/4.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -52,7 +52,7 @@ module.exports = [
     category: "blinds",
     name: "Blinds",
     tag: "Appliction",
-    image: "/images/gallery/img_15.jpg",
+    image: "/images/gallery/blinds/5.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -64,7 +64,7 @@ module.exports = [
     category: "blinds",
     name: "Curtains",
     tag: "Design",
-    image: "/images/gallery/img_16.jpg",
+    image: "/images/gallery/blinds/6.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -76,7 +76,7 @@ module.exports = [
     category: "blinds",
     name: "Shutter",
     tag: "Design",
-    image: "/images/gallery/img_18.jpg",
+    image: "/images/gallery/blinds/7.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
@@ -88,7 +88,7 @@ module.exports = [
     category: "blinds",
     name: "Blinds",
     tag: "Appliction",
-    image: "/images/gallery/img_19.jpg",
+    image: "/images/gallery/blinds/8.jpg",
     projectInfo: {
       date: "23 July, 2020",
       clientName: "Mariona Adisson, USA",
