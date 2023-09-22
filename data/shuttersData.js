@@ -1,0 +1,97 @@
+module.exports = [
+  {
+    id: 1,
+    category: "blinds",
+    name: "Shutter",
+    tag: "Design",
+    image: "/images/gallery/img_10.jpg",
+    projectInfo: {
+      date: "23 July, 2020",
+      clientName: "Mariona Adisson, USA",
+      projectType: "UI/UX, Web Design",
+    },
+  },
+  {
+    id: 2,
+    category: "blinds",
+    name: "Blinds",
+    tag: "Appliction",
+    image: "/images/gallery/img_11.jpg",
+    projectInfo: {
+      date: "23 July, 2020",
+      clientName: "Mariona Adisson, USA",
+      projectType: "UI/UX, Web Design",
+    },
+  },
+  {
+    id: 3,
+    category: "blinds",
+    name: "Curtains",
+    tag: "Design",
+    image: "/images/gallery/img_12.jpg",
+    projectInfo: {
+      date: "23 July, 2020",
+      clientName: "Mariona Adisson, USA",
+      projectType: "UI/UX, Web Design",
+    },
+  },
+  {
+    id: 5,
+    category: "blinds",
+    name: "Shutter",
+    tag: "Design",
+    image: "/images/gallery/img_14.jpg",
+    projectInfo: {
+      date: "23 July, 2020",
+      clientName: "Mariona Adisson, USA",
+      projectType: "UI/UX, Web Design",
+    },
+  },
+  {
+    id: 6,
+    category: "blinds",
+    name: "Blinds",
+    tag: "Appliction",
+    image: "/images/gallery/img_15.jpg",
+    projectInfo: {
+      date: "23 July, 2020",
+      clientName: "Mariona Adisson, USA",
+      projectType: "UI/UX, Web Design",
+    },
+  },
+  {
+    id: 7,
+    category: "blinds",
+    name: "Curtains",
+    tag: "Design",
+    image: "/images/gallery/img_16.jpg",
+    projectInfo: {
+      date: "23 July, 2020",
+      clientName: "Mariona Adisson, USA",
+      projectType: "UI/UX, Web Design",
+    },
+  },
+  {
+    id: 9,
+    category: "blinds",
+    name: "Shutter",
+    tag: "Design",
+    image: "/images/gallery/img_18.jpg",
+    projectInfo: {
+      date: "23 July, 2020",
+      clientName: "Mariona Adisson, USA",
+      projectType: "UI/UX, Web Design",
+    },
+  },
+  {
+    id: 10,
+    category: "blinds",
+    name: "Blinds",
+    tag: "Appliction",
+    image: "/images/gallery/img_19.jpg",
+    projectInfo: {
+      date: "23 July, 2020",
+      clientName: "Mariona Adisson, USA",
+      projectType: "UI/UX, Web Design",
+    },
+  }]

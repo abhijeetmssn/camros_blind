@@ -1,4 +1,6 @@
-const PortfolioTopTitle = () => {
+const PortfolioTopTitle = ({ title }) => {
+  const message = `Check out our ${title}`;
+
   return (
     <div className="fancy-feature-fiftyOne position-relative mt-200">
       <div className="container">
@@ -9,7 +11,7 @@ const PortfolioTopTitle = () => {
                 Our Recent Work
               </div>
               <h2 className="main-title fw-500 tx-dark">
-                Check out our Portfolio.
+                {message}
               </h2>
             </div>
           </div>

@@ -53,13 +53,13 @@ const MainMenu = () => {
               Home
             </a> */}
 
-            <li className="nav-item">
-              <Link className="nav-link" href="/" role="button">
-                Home
-              </Link>
-            </li>
+          <li className="nav-item">
+            <Link className="nav-link" href="/" role="button">
+              Home
+            </Link>
+          </li>
 
-            {/* <ul className="dropdown-menu">
+          {/* <ul className="dropdown-menu">
               <li>
                 <div className="row">
                   {menuItems.map((menu, index) => (
@@ -133,11 +133,35 @@ const MainMenu = () => {
           </li> */}
           {/* End li (pages) */}
 
-          <li className="nav-item">
-              <Link className="nav-link" href="/portfolio/portfolio-v2" role="button">
+          {/* <li className="nav-item">
+            <Link className="nav-link" href="/portfolio/portfolio-v2" role="button">
               Portfolio
-              </Link>
-            </li>
+            </Link>
+          </li> */}
+
+          <li className="nav-item">
+            <Link className="nav-link" href="/portfolio/blinds" role="button">
+              Blinds
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link className="nav-link" href="/portfolio/shutters" role="button">
+              Shutters
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link className="nav-link" href="/portfolio/drapes" role="button">
+              Drapes
+            </Link>
+          </li>
+
+          <li className="nav-item">
+            <Link className="nav-link" href="/portfolio/shades" role="button">
+              Shades
+            </Link>
+          </li>
 
           {/* <li className="nav-item dropdown">
             <a
@@ -201,13 +225,13 @@ const MainMenu = () => {
         {/* End ul */}
 
         {/* Mobile Content */}
-        <div className="mobile-content d-block d-lg-none">
+        {/* <div className="mobile-content d-block d-lg-none">
           <div className="d-flex flex-column align-items-center justify-content-center mt-70">
             <Link href="/contact" className="btn-twentyOne fw-500 tran3s">
               Contact us
             </Link>
           </div>
-        </div>
+        </div> */}
         {/* /.mobile-content */}
       </div>
     </nav>
