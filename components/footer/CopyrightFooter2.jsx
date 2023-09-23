@@ -2,10 +2,6 @@ import Link from "next/link";
 
 const links = [
   {
-    title: "Privacy & Terms.",
-    href: "/faq",
-  },
-  {
     title: "Contact Us",
     href: "/contact",
   },

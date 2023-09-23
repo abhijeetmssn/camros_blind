@@ -21,10 +21,6 @@ const ContactForm = ({ handleShowToast }) => {
     }));
   };
 
-  const notify = () => {
-    handleShowToast("Message Sent!",false);
-  }
-
   const handleSubmit = (event, e) => {
     event.preventDefault();
     console.log(formData);
@@ -46,9 +42,6 @@ const ContactForm = ({ handleShowToast }) => {
 
   return (
     <form onSubmit={handleSubmit} ref={formRef}>
-      <div>
-        <button onClick={notify}>Notify!</button>
-      </div>
       <div className="messages" />
       <div className="row controls">
         <div className="col-12">

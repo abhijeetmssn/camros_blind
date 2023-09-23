@@ -9,8 +9,8 @@ const PortfolioGallery2 = () => {
   const [filter, setFilter] = useState("*");
 
   const filteredItems = filter === "*"
-  ? items
-  : items.filter((item) => item?.category?.includes(filter));
+    ? items
+    : items.filter((item) => item?.category?.includes(filter));
 
 
   return (
@@ -79,13 +79,10 @@ const PortfolioGallery2 = () => {
                       )}
                     </Item>
                   </div>
-                  <Link
-                    href={`/portfolio/${item.id}`}
-                    className="title tran3s d-flex flex-column align-items-center"
-                  >
+                  <div className="title tran3s d-flex flex-column align-items-center">
                     <span className="pj-name tran3s fw-500">{item.name}</span>
                     <span className="tag">{item.tag}</span>
-                  </Link>
+                  </div>
                 </div>
               </div>
             ))}

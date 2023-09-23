@@ -63,7 +63,7 @@ const Footer = () => {
       <div className="col-xl-3 col-lg-4 col-md-5 mb-30">
         <h5 className="footer-title text-white fw-500">Address</h5>
         <p className="text-white opacity-75 mb-35">
-        1 UNIT 8 7210 46AVE CAMROSE ALBERTA T4V 5C4.
+        UNIT 8 7210 46AVE CAMROSE ALBERTA T4V 5C4.
         </p>
         <ul className="d-flex social-icon style-none">
           {socialIcons.map((icon, index) => (

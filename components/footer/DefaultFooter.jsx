@@ -18,7 +18,7 @@ const DefaultFooter = () => {
             </div>
             {/* End .col */}
 
-            <Footer2 />
+            {/* <Footer2 /> */}
 
             
             {/* End .col-xl-4 */}

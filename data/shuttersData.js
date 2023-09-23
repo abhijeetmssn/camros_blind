@@ -15,7 +15,7 @@ module.exports = [
     id: 2,
     category: "shutter",
     name: "Composite Shutter",
-    tag: "Appliction",
+    tag: "Design",
     image: "/images/gallery/shutters/2.jpg",
     projectInfo: {
       date: "23 July, 2020",
@@ -51,7 +51,7 @@ module.exports = [
     id: 6,
     category: "shutter",
     name: "Plantation Shutter",
-    tag: "Appliction",
+    tag: "Design",
     image: "/images/gallery/shutters/5.jpg",
     projectInfo: {
       date: "23 July, 2020",

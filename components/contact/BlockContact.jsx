@@ -5,7 +5,7 @@ const BlockContact = () => {
     {
       icon: "/images/icon/icon_147.svg",
       title: "Our Address",
-      content: "1 UNIT 8 7210 46AVE CAMROSE ALBERTA T4V 5C4",
+      content: "UNIT 8 7210 46AVE CAMROSE ALBERTA T4V 5C4",
       delay: "100",
     },
     {
@@ -19,7 +19,7 @@ const BlockContact = () => {
       icon: "/images/icon/icon_149.svg",
       title: "Whatsapp Support",
       content: "Chat service",
-      link: "https://wa.me/+917696197454",
+      link: "https://wa.me/+12368085063",
       delay: "300",
     },
   ];
