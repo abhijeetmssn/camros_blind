@@ -15,7 +15,7 @@ module.exports = [
     id: 2,
     category: "shades",
     name: "Cellular Shades",
-    tag: "Appliction",
+    tag: "Design",
     image: "/images/gallery/shades/2.jpg",
     projectInfo: {
       date: "23 July, 2020",
@@ -51,7 +51,7 @@ module.exports = [
     id: 6,
     category: "shades",
     name: "Roller Shades",
-    tag: "Appliction",
+    tag: "Design",
     image: "/images/gallery/shades/5.jpg",
     projectInfo: {
       date: "23 July, 2020",
@@ -87,7 +87,7 @@ module.exports = [
     id: 10,
     category: "shades",
     name: "Woven Wood Shades",
-    tag: "Appliction",
+    tag: "Design",
     image: "/images/gallery/shades/9.jpg",
     projectInfo: {
       date: "23 July, 2020",

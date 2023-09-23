@@ -5,7 +5,7 @@ import "photoswipe/dist/photoswipe.css";
 import Link from "next/link";
 import Image from "next/image";
 
-const PortfolioGallery2 = () => {
+const ShuttersGallery = () => {
   const [filter, setFilter] = useState("*");
 
   const filteredItems = filter === "*"
@@ -93,4 +93,4 @@ const PortfolioGallery2 = () => {
   );
 };
 
-export default PortfolioGallery2;
+export default ShuttersGallery;

@@ -15,7 +15,7 @@ module.exports = [
     id: 2,
     category: "drapes",
     name: "Drapery Hardware",
-    tag: "Appliction",
+    tag: "Design",
     image: "/images/gallery/drapes/2.jpg",
     projectInfo: {
       date: "23 July, 2020",
@@ -51,7 +51,7 @@ module.exports = [
     id: 6,
     category: "drapes",
     name: "Valances",
-    tag: "Appliction",
+    tag: "Design",
     image: "/images/gallery/drapes/5.jpg",
     projectInfo: {
       date: "23 July, 2020",

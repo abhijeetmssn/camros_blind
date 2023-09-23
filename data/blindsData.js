@@ -15,7 +15,7 @@ module.exports = [
     id: 2,
     category: "blinds",
     name: "Aluminium Venetian Blind",
-    tag: "Appliction",
+    tag: "Design",
     image: "/images/gallery/blinds/2.jpg",
     projectInfo: {
       date: "23 July, 2020",
@@ -51,7 +51,7 @@ module.exports = [
     id: 6,
     category: "blinds",
     name: "Motorized Blind",
-    tag: "Appliction",
+    tag: "Design",
     image: "/images/gallery/blinds/5.jpg",
     projectInfo: {
       date: "23 July, 2020",
@@ -87,7 +87,7 @@ module.exports = [
     id: 10,
     category: "blinds",
     name: "Wooden-Blind",
-    tag: "Appliction",
+    tag: "Design",
     image: "/images/gallery/blinds/8.jpg",
     projectInfo: {
       date: "23 July, 2020",
