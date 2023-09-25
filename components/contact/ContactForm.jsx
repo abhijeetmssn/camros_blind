@@ -23,7 +23,7 @@ const ContactForm = ({ handleShowToast }) => {
   const handleSubmit = (event, e) => {
     event.preventDefault();
     
-    emailjs.sendForm('service_rg1tfjd', 'template_a0nyxel', formRef.current, 'JboINDisZL-aWNV7U')
+    emailjs.sendForm('service_2s6lqfj', 'template_o9q00ps', formRef.current, 'RwxxC2eJuelf8Ut8T')
       .then((result) => {
         handleShowToast("Message Sent!", false);
         setFormData({
