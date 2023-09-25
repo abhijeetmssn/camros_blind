@@ -1,26 +1,46 @@
 import emailjs from '@emailjs/browser';
+import { useState } from "react";
+import { useRef } from "react";
+const ContactForm = ({ handleShowToast }) => {
 
-const ContactForm = () => {
-  const handleSubmit = (event) => {
+
+  const formRef = useRef(null);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+    phone: ""
+  });
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (event, e) => {
     event.preventDefault();
-    const form = event.target;
-    const formData = new FormData(form);
-
-    // Extract values from form data
-    const name = formData.get('name');
-    const email = formData.get('email');
-    const message = formData.get('message');
-
-    // Now you have the form data in the variables 'name', 'email', and 'message'
-    console.log('Name:', name);
-    console.log('Email:', email);
-    console.log('Message:', message);
-
+    
+    emailjs.sendForm('service_rg1tfjd', 'template_a0nyxel', formRef.current, 'JboINDisZL-aWNV7U')
+      .then((result) => {
+        handleShowToast("Message Sent!", false);
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+          phone: ""
+        });
+      }, (error) => {
+        handleShowToast("Problem Occured!", true);
+      });
+   
   };
 
   return (
     <div className="form-style-one" data-aos="fade-up">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} ref={formRef}>
         <div className="messages" />
         <div className="row controls">
           <div className="col-12">
@@ -29,6 +49,8 @@ const ContactForm = () => {
                 type="text"
                 placeholder="Your Name*"
                 name="name"
+                value={formData.name}
+                onChange={handleChange}
                 required="required"
                 data-error="Name is required."
               />
@@ -38,13 +60,31 @@ const ContactForm = () => {
           {/* End .col-12 */}
 
           <div className="col-12">
-            <div className="input-group-meta form-group mb-50">
+            <div className="input-group-meta form-group mb-30">
               <input
                 type="email"
                 placeholder="Email Address*"
                 name="email"
+                value={formData.email}
+                onChange={handleChange}
                 required="required"
                 data-error="Valid email is required."
+              />
+              <div className="help-block with-errors" />
+            </div>
+          </div>
+
+
+          <div className="col-12">
+            <div className="input-group-meta form-group mb-50">
+              <input
+                type="tel"
+                placeholder="Phone Number*"
+                name="phone"
+                value={formData.phone}
+                onChange={handleChange}
+                required="required"
+                data-error="Valid phone number is required."
               />
               <div className="help-block with-errors" />
             </div>
@@ -56,9 +96,11 @@ const ContactForm = () => {
               <textarea
                 placeholder="Your message*"
                 name="message"
+                value={formData.message}
+                onChange={handleChange}
                 required="required"
                 data-error="Please,leave us a message."
-                defaultValue={""}
+                
               />
               <div className="help-block with-errors" />
             </div>
@@ -66,7 +108,7 @@ const ContactForm = () => {
           {/* End .col-12 */}
 
           <div className="col-12">
-            <button className="btn-twentyOne fw-500 tran3s d-block">
+            <button type="submit" className="btn-twentyOne fw-500 tran3s d-block">
               Send Message
             </button>
           </div>

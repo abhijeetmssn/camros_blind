@@ -1,7 +1,6 @@
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
-import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const ContactForm = ({ handleShowToast }) => {
@@ -11,6 +10,7 @@ const ContactForm = ({ handleShowToast }) => {
     name: "",
     email: "",
     message: "",
+    phone: ""
   });
 
   const handleChange = (event) => {
@@ -23,18 +23,19 @@ const ContactForm = ({ handleShowToast }) => {
 
   const handleSubmit = (event, e) => {
     event.preventDefault();
-    console.log(formData);
+    console.log(formRef.current);
 
     emailjs.sendForm('service_rg1tfjd', 'template_a0nyxel', formRef.current, 'JboINDisZL-aWNV7U')
       .then((result) => {
-        handleShowToast("Message Sent!",false);
+        handleShowToast("Message Sent!", false);
         setFormData({
           name: "",
           email: "",
           message: "",
+          phone: ""
         });
       }, (error) => {
-        handleShowToast("Problem Occured!",true);
+        handleShowToast("Problem Occured!", true);
       });
     //e.target.reset();
     // You can add your form submission logic here
@@ -66,6 +67,21 @@ const ContactForm = ({ handleShowToast }) => {
               placeholder="Email*"
               name="email"
               value={formData.email}
+              onChange={handleChange}
+              required
+            />
+            <div className="help-block with-errors" />
+          </div>
+        </div>
+        {/* End .col-12 */}
+
+        <div className="col-12">
+          <div className="input-group-meta form-group mb-20">
+            <input
+              type="tel"
+              placeholder="Phone Number*"
+              name="phone"
+              value={formData.phone}
               onChange={handleChange}
               required
             />

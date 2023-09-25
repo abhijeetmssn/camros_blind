@@ -4,11 +4,35 @@ import ContactForm from "../components/contact/ContactForm";
 import Map from "../components/contact/Map";
 import DefaultFooter from "../components/footer/DefaultFooter";
 import DefaulHeader from "../components/header/DefaulHeader";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const contact = () => {
+  const handleShowToast = (message, error) => {
+    if (error) {
+      toast.error(message, {
+        closeButton: false
+      });
+    } else {
+      toast.success(message, {
+        closeButton: false
+      });
+    }
+  };
   return (
     <>
       <Seo pageTitle="Camrose Blinds || Contact" />
+      <ToastContainer
+        position="top-right"
+        autoClose={3000} // Adjust this as needed
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
       {/* <!-- 
       =============================================
       Theme Default Menu
@@ -63,7 +87,7 @@ const contact = () => {
               </h2>
             </div>
             <div className="col-xl-11 m-auto">
-              <ContactForm />
+              <ContactForm handleShowToast={handleShowToast} />
               {/* /.form-style-one */}
             </div>
           </div>

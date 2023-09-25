@@ -12,18 +12,6 @@ module.exports = [
     },
   },
   {
-    id: 2,
-    category: "blinds",
-    name: "Aluminium Venetian Blind",
-    tag: "Design",
-    image: "/images/gallery/blinds/2.jpg",
-    projectInfo: {
-      date: "23 July, 2020",
-      clientName: "Mariona Adisson, USA",
-      projectType: "UI/UX, Web Design",
-    },
-  },
-  {
     id: 3,
     category: "blinds",
     name: "Composite Blind",
