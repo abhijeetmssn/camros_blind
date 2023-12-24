@@ -10,7 +10,7 @@ const links = [
 const icons = [
   {
     icon: "fab fa-facebook-f",
-    href: "https://www.facebook.com/",
+    href: "https://www.facebook.com/profile.php?id=61551689048866",
   },
   {
     icon: "fab fa-twitter",

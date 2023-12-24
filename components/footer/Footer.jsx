@@ -33,7 +33,7 @@ const Footer = () => {
   const socialIcons = [
     {
       iconClass: "fab fa-facebook-f",
-      link: "#",
+      link: "https://www.facebook.com/profile.php?id=61551689048866",
     },
     {
       iconClass: "fab fa-twitter",
